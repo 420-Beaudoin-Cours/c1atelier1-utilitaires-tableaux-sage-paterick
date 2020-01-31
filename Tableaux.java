@@ -85,7 +85,7 @@ public class Tableaux {
         int somme = 0;
         double moyenne = 0;
 
-        for (int i=0; i<tab.length-1; i++){
+        for (int i=0; i<tab.length; i++){
             somme += tab[i];
         }
         try {
@@ -152,7 +152,7 @@ public class Tableaux {
         int somme = 0;
         double moyenne = 0;
 
-        for (int i=0; i<tab.length-1; i++){
+        for (int i=0; i<tab.length; i++){
             somme += Integer.parseInt(tab[i]);
         }
         try {
